@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamburguesa</title>
+    <title>yumskull</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet"href="style.css">
     </head>
 <body>
 <header class="header">
 <div class="menu container">
-<a href="#"class="logo">HamburMax</a> 
+<a href="#"class="logo">yumskull</a> 
 <input type="checkbox" id="menu"></input>
 <label for="menu">
-<img src="png-transparent-euclidean-food-icon-burger-png-material-happy-birthday-vector-images-cartoon.png" width="50" height="50" class="menu-icono"alt="">
+<img src="4626fee5-332d-4192-9051-cbc6fc8061bd.jfif" width="60" height="50" class="menu-icono"alt="logo">
 </label>
-<nav class="navbar">
-<ul>
+<button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+<nav class="navbar    " id="navbar">
+<button class="cerrar-menu" id="cerrar"><i class="bi bi-x-circle-fill"></i>Cerrar</button>
+<ul class="nav-list">
 <li><a href="#">Inicio</a></li>
 <li><a href="#">Servicios</a></li>
 <li><a href="#">Productos</a></li>
 <li><a href="#">Contacto</a></li>
 </ul>
 </nav>
-</div>    
+</div>
+    
 <div class="header-content container">
 <div class="header-txt">
 <span class="oferta">Oferta</span>
@@ -173,6 +177,9 @@ CARNE: La protagonista de nuestro menú, las encuentras de res, pollo, pescado o
 </div>
 
 </div>
+
 </footer>
+
+<script src="index.js"></script>
 </body>
 </html>
